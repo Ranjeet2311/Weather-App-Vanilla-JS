@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* background-color: cadetblue; */
+}
+
+body {
+  background-image: url(/map-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+}
+
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.app-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.6rem 1.5rem;
+  box-shadow: 10px 10px 45px black;
+  background-color: rgb(220, 219, 219);
+  border: 2px solid black;
+}
+
+.input-box {
+  margin: 1.8rem 0rem;
+  padding: 0.8rem 1.5rem;
+  box-shadow: 10px 10px 45px black;
+  background-color: rgb(220, 219, 219);
+  border: 2px solid black;
+  width: 21rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+}
+
+.input-box h1 {
+  font-size: 2rem;
+  margin: 0.6rem 0rem;
+}
+
+#search {
+  margin-right: 2rem;
+  outline: none;
+  border-radius: 0.2rem;
+  padding: 0.1rem 0.4rem;
+}
+
+.btn {
+  font-size: 0.8rem;
+  font-weight: 800;
+  padding: 0.1rem 0.4rem;
+  box-shadow: 6px 6px 10px black;
+  border-radius: 0.4rem;
+}
+
+.btn:hover {
+  font-size: 0.8rem;
+  font-weight: 800;
+  padding: 0.1rem 0.4rem;
+  box-shadow: 1px 1px 1px black;
+}
+
+.first-sec {
+  display: block;
+  margin: 0rem auto;
+}
+
+#weatherIcon {
+  display: block;
+  margin: 0rem auto;
+}
+
+.data-container {
+  display: flex;
+}
+
+.data-main,
+.data-sec {
+  padding: 0rem 2rem;
+  text-align: center;
+}
+
+hr {
+  margin: 0.8rem 0rem;
+  box-shadow: 1px 4px 6px black;
+}
+
+h1 {
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 0.6rem;
+}
+
+.data-sec hr {
+  margin: 0.4rem 0rem;
+}
